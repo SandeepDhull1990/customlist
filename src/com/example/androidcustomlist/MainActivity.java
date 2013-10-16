@@ -26,6 +26,19 @@ public class MainActivity extends Activity {
 		list.add("hi");
 		list.add("hi");
 		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
+		list.add("hi");
 
 		CustomAdapter adapter = new CustomAdapter(this, list);
 		mListView.setAdapter(adapter);

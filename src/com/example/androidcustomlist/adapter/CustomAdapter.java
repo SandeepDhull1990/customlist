@@ -8,7 +8,6 @@ import android.content.Context;
 import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.View.MeasureSpec;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
@@ -43,7 +42,7 @@ public class CustomAdapter extends BaseAdapter {
 			convertView = new TextView(mContext);
 		}
 		((TextView)convertView).setText("Position = " + position);
-		LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT, 200);
+		LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, 200);
 		convertView.setLayoutParams(params);
 		Random rnd = new Random(); 
 		int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));   

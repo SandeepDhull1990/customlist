@@ -11,7 +11,7 @@
     <com.example.androidcustomlist.customview.CustomListView
         android:id="@+id/activity_main_listView"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true">
     </com.example.androidcustomlist.customview.CustomListView>
